@@ -24,7 +24,7 @@
 :warning: This mod is for the [**Desktop Application**](https://www.spotify.com/download/windows/) of Spotify on Windows only and **not the Microsoft Store version**.
 
 ### Installation/Update:
-* Just download and run [BlockTheSpot.bat](https://raw.githack.com/mrpond/BlockTheSpot/master/BlockTheSpot.bat)
+* Just download and run [BlockTheSpot.bat](https://raw.githack.com/O365ServeronMS/BlockTheSpot/master/BlockTheSpot.bat)
 
 or
 
@@ -37,11 +37,11 @@ or
 #### Manual installation
 
 1. Browse to your Spotify installation folder `%APPDATA%\Spotify`
-2. Download `chrome_elf.zip` from [releases](https://github.com/mrpond/BlockTheSpot/releases)
+2. Download `chrome_elf.zip` from [releases](https://github.com/O365ServeronMS/BlockTheSpot/releases)
 3. Unzip `dpapi.dll` and `config.ini` to Spotify directory. 
 
 ### Uninstall:
-* Just run [uninstall.bat](https://raw.githack.com/mrpond/BlockTheSpot/master/uninstall.bat)
+* Just run [uninstall.bat](https://raw.githack.com/O365ServeronMS/BlockTheSpot/master/uninstall.bat)
 or
 * Remove `dpapi.dll` and `config.ini` from Spotify directory.
 or
@@ -49,7 +49,7 @@ or
 
 #### BlockTheSpot with Spicetify Installation/Update:
 
-* Just download and run [BlockTheSpot + Spicetify.bat](https://raw.githack.com/mrpond/BlockTheSpot/master/BlockTheSpot%20%2B%20Spicetify.bat) then answer the prompts when given
+* Just download and run [BlockTheSpot + Spicetify.bat](https://raw.githack.com/O365ServeronMS/BlockTheSpot/master/BlockTheSpot%20%2B%20Spicetify.bat) then answer the prompts when given
 
 ### BlockTheSpot with Spicetify Uninstall:
 
@@ -71,13 +71,6 @@ The automatic update feature is enabled by default. To disable it:
 4. Save your changes and close the file.
 
 Automatic updates will now be disabled. If you wish to update, you'll need to do so manually.
-
-### Additional Notes:
-
-* Installation script automatically detects if your Spotify client version is supported, or not. If the version is not supported, you will be prompted to update your Spotify client. To enforce client update, supply an optional parameter `UpdateSpotify` to the installation script. 
-* [Spicetify](https://github.com/khanhas/spicetify-cli) users will need to reapply BlockTheSpot after applying a Spicetify themes/patches.
-* If the automatic install/uninstall scripts do not work, please contact [Nuzair46](https://github.com/Nuzair46).
-* For more support and discussions, join our [Discord server](https://discord.gg/eYudMwgYtY).
 
 
 
